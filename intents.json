@@ -1,0 +1,29 @@
+{
+    "intents":
+    [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi","Hey","Hi there", "How are you?","Is anyone there?","Hola","Hello","Good day"],
+            "responses": ["Hello","Good to see you again","Hi there, How can I help you?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye","See you later!","Goodbye","Nice chatting to you, Bye!"],
+            "responses": ["See you!","Will see you soon!","Hope you had a great time!","Have a nice day","Bye! Come back soon!"],
+            "context": [""]
+        },
+        {
+            "tag":"thanks",
+            "patterns": ["Thanks","Thank you","That's helpful","Awesome, thanks","Thanks for helping me"],
+            "responses": ["My pleasure","Yor're welcome!"],
+            "context":[""]
+        },
+        {
+            "tag": "query",
+            "patterns": ["What is chatbot?"],
+            "responses": ["Chatbot is an interaction medium that addresses the basic needs of the user through queries..."],
+            "context": [""]
+        }
+    ]
+}
