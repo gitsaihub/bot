@@ -1,2 +1,2 @@
-# bot
+# Chatbot
 Rudimentary chatbot
